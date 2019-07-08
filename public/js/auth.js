@@ -3,20 +3,12 @@ $(document).ready(function () {
     event.preventDefault();
     const signupEmail = $('#signup-email').val();
     const signupPassword = $('#signup-password').val();
-    // const userName = $('#input-name').val();
 
     firebase
       .auth()
       .createUserWithEmailAndPassword(signupEmail, signupPassword)
-      .then(() => {
-        const user = firebase.auth().currentUser;
-        user.updateProfile({
-          // displayName: userName,
-          photoURL: '',
-        })
-          .then(() => window.location.href = "../html/map.html");
-      })
-      .catch(error => $('#error-msg').text(error.message));
+      .then(() => window.location.href = "../html/map.html")
+      .catch(error => $('#error-msg').text(error.message))
   });
 
   $('#btn-login').click(function () {
@@ -28,7 +20,7 @@ $(document).ready(function () {
       .auth()
       .signInWithEmailAndPassword(email, password)
       .then(() => window.location.href = "../html/map.html")
-      .catch(error => $('#error-msg').text(error.message));
+      .catch(error => $('#error-msg').text(error.message))
   });
 
   $('#google-btn').click(function () {

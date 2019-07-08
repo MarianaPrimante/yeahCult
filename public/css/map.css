@@ -1,5 +1,201 @@
 body {
   font-size: 20px;
+}
+
+.btn-top {
+  margin-left: 25vw;
+}
+
+header {
+  width: 100%;
+}
+
+main, .map, .list-map {
+  position: absolute;
+  width: 100%;
+}
+
+.img-timeline {
+  width: 15%;
+  margin: 3%;
+}
+
+a.navbar-brand {
+  font-family: 'Nanum Gothic Coding', monospace;
+  font-size: 30px;
+  font-weight: 500;
+}
+
+.navbar {
+  background: linear-gradient(to right, #8333A3, #000000);
+}
+
+.navbar-toggler .fas {
+  color: #ffffff;
+}
+
+.nav-options {
+  color: white;
+  background: transparent;
+  border: none;
+}
+
+.nav-button {
+  background: transparent;
+  border: none;
+}
+
+.navbar-nav a {
+  color: #ffffff;
+}
+
+.card {
+  padding: 0;
+  width: 100%;
+  transition: transform 1s;
+  transform-style: preserve-3d;
+}
+
+.back, .btn-flip {
+  display: block;
+  position: absolute;
+}
+
+.text-timeline {
+  font-family: 'Nanum Gothic Coding', monospace;
+  color: white;
+  font-size: 30px;
+}
+
+.nav-timeline {
+  background: linear-gradient(to right, #8333A3, #000000);
+  height: 12vh;
+}
+
+.nav-options {
+  color: white;
+  background: transparent;
+  border: none;
+}
+
+.nav-button {
+  background: transparent;
+  border: none;
+  margin-top: 14vw;
+  margin-right: 5vh;
+}
+
+.card {
+  padding: 0;
+  width: 100%;
+  transition: transform 1s;
+  transform-style: preserve-3d;
+}
+
+.back, .btn-flip {
+  display: block;
+  position: absolute;
+}
+
+.card div {
+  display: block;
+  width: auto;
+  top: 0px;
+  position: relative;
+  backface-visibility: hidden;
+}
+
+.card .back {
+  transform: rotateY( 180deg);
+}
+
+.card.flipped {
+  transform: rotateY( 180deg);
+}
+
+.btn-flip, .btn-flip-one {
+  background: transparent;
+  max-width: 75px;
+  height: auto;
+  position: absolute;
+  top: 460px;
+  left: 3vw;
+}
+
+.btn-flip {
+  position: fixed;
+}
+
+.map {
+  height: 88vh;
+  position: absolute;
+  margin: 0;
+  padding: 0;
+}
+
+.list-map {
+  background-color: white;
+  position: absolute;
+  height: 88vh;
+  width: 100%;
+  float: right;
+}
+
+.fa-arrow-left {
+  padding: 5%;
+  font-size: 25px;
+  color: #8333A3;
+}
+
+.summary {
+  padding: 2% 8%;
+  text-align: justify;
+}
+
+.read-more {
+  float: right;
+}
+
+.photo {
+  width: auto;
+  height: 60vw;
+}
+
+.photo-list {
+  width: auto;
+  height: 150px;
+}
+
+.list-place {
+  color: white;
+  border: none;
+}
+
+.btn-name {
+  background: rgb(71, 26, 88);
+}
+
+#btnEnglish {
+  color: white;
+  border: none;
+  background: rgb(71, 26, 88);
+  border-radius: 30px;
+}
+
+@media screen and (min-width: 361px) {
+  .btn-flip, .btn-flip-one {
+    top: 445px;
+    max-width: 100px;
+  }
+  .img-list, .carousel {
+    margin: 0 20vw;
+    color: white;
+    border: none;
+  }
+  .carousel {}
+  /* Falta arrumar a página wiki o tamanho do carroussel */
+  /* body {
+  font-size: 20px;
   margin: 0;
 }
 
@@ -41,7 +237,7 @@ a.navbar-brand {
   border: none;
   /* margin-top: 14vw;
   margin-right: 5vh; */
-}
+  /* }
 
 .navbar-nav a {
   color: #ffffff;
@@ -121,11 +317,7 @@ a {
   height: auto;
 }
 
-.btn-flip {
-  position: absolute;
-  bottom: 5vh;
-  left: 3vw;
-}
+
 
 .btn-flip-one {
   position: absolute;
@@ -187,162 +379,5 @@ a {
 
 .list-place {
   color: black;
-}
-
-@media screen and (max-width: 1024px) {
-  body {
-    font-size: 20px;
-  }
-  .btn-top {
-    margin-left: 25vw;
-  }
-  header {
-    width: 100%;
-  }
-  main, .map, .list-map {
-    position: absolute;
-    width: 100%;
-  }
-  .img-timeline {
-    width: 15%;
-    margin: 3%;
-  }
-  a.navbar-brand {
-    font-family: 'Nanum Gothic Coding', monospace;
-    font-size: 30px;
-    font-weight: 500;
-  }
-  .navbar {
-    /* height: 12vh; */
-    background: linear-gradient(to right, #8333A3, #000000);
-  }
-  .navbar-toggler .fas {
-    color: #ffffff;
-  }
-  .nav-options {
-    color: white;
-    background: transparent;
-    border: none;
-  }
-  .nav-button {
-    background: transparent;
-    border: none;
-    /* margin-top: 14vw;
-    margin-right: 5vh; */
-  }
-  .navbar-nav a {
-    color: #ffffff;
-  }
-  .card {
-    padding: 0;
-    width: 100%;
-    transition: transform 1s;
-    transform-style: preserve-3d;
-  }
-  .back, .btn-flip {
-    display: block;
-    position: absolute;
-  }
-  .text-timeline {
-    font-family: 'Nanum Gothic Coding', monospace;
-    color: white;
-    font-size: 30px;
-  }
-  .nav-timeline {
-    background: linear-gradient(to right, #8333A3, #000000);
-    height: 12vh;
-  }
-  .nav-options {
-    color: white;
-    background: transparent;
-    border: none;
-  }
-  .nav-button {
-    background: transparent;
-    border: none;
-    margin-top: 14vw;
-    margin-right: 5vh;
-  }
-  .card {
-    padding: 0;
-    width: 100%;
-    transition: transform 1s;
-    transform-style: preserve-3d;
-  }
-  .back, .btn-flip {
-    display: block;
-    position: absolute;
-  }
-  .card div {
-    display: block;
-    width: auto;
-    top: 0px;
-    position: relative;
-    backface-visibility: hidden;
-  }
-  .card .back {
-    transform: rotateY( 180deg);
-  }
-  .card.flipped {
-    transform: rotateY( 180deg);
-  }
-  .btn-flip, .btn-flip-one {
-    background: transparent;
-    width: 20vw;
-    height: auto;
-    position: absolute;
-    top: 125vw;
-    left: 3vw;
-  }
-  .btn-flip {
-    position: fixed;
-  }
-  .map {
-    height: 88vh;
-    position: absolute;
-    margin: 0;
-    padding: 0;
-  }
-  .list-map {
-    background-color: white;
-    position: absolute;
-    height: 88vh;
-    width: 100vw;
-    float: right;
-  }
-  .fa-arrow-left {
-    padding: 5%;
-    font-size: 25px;
-    color: #8333A3;
-  }
-
-  .summary {
-    padding: 2% 8%;
-    text-align: justify;
-  }
-  .read-more {
-    float: right;
-  }
-  .photo {
-    width: auto;
-    height: 60vw;
-  }
-  .photo-list {
-    width: auto;
-    height: 150px;
-
-  }
-
-  .list-place {
-    color: white;
-    border: none;
-    background:rgb(71, 26, 88);
-  }
-
-  #btnEnglish{
-    color: white;
-    border: none;
-    background:rgb(71, 26, 88);
-    border-radius: 30px;
-  }
+} */
 }
