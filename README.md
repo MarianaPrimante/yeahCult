@@ -18,6 +18,12 @@ Inclusão de rotas, para realizar um passeio guiado, etc.
 
 E falar sobre a monetização, através do apoio de empresas públicas e privadas, planos de incentivo a cultura, e crowfunding, por quê não?
 
+## Simulação Login
+```
+email: teste1@gmail.com
+senha: teste1
+```
+
 ## Canvas
 [Link Canvas](https://canvanizer.com/canvas/wfIUYRhiePBAE)
 ![Canvas](public/imgs/canvas_wfIUYRhiePBAE.png)
@@ -42,15 +48,20 @@ Protótipo de média fidelidade:
 * [Voice RSS](http://www.voicerss.org/)
 * Tradutor
 
+## Produto
+![Imagem](public/imgs/image-yeahcult.PNG)
+
 ## Road map
 ### Versão 1.0.0
 * Resumo via Wikipédia
 * Áudio com voz sintética
 * Tradução para o inglês
 * Pontos de interesse
+* Autenticação para login
 
 ### Versão 2.0.0
 * Acessibilidade para deficientes visuais
+* Criar e editar perfil
 * Usuários podem contribuir com fotos, áudios e comentários
 * Áudio com voz humana
 * Geolocalização
