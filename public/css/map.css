@@ -182,202 +182,26 @@ a.navbar-brand {
   border-radius: 30px;
 }
 
-@media screen and (min-width: 361px) {
+@media screen and (min-width: 769px) {
   .btn-flip, .btn-flip-one {
     top: 445px;
     max-width: 100px;
   }
-  .img-list, .carousel {
+  .img-list {
     margin: 0 20vw;
     color: white;
     border: none;
   }
-  .carousel {}
-  /* Falta arrumar a página wiki o tamanho do carroussel */
-  /* body {
-  font-size: 20px;
-  margin: 0;
-}
-
-.btn-top {
-  margin-left: 25vw;
-}
-
-header, main, .map, .list-map {
-  width: 100%;
-}
-
-.img-timeline {
-  width: 15%;
-  margin: 3%;
-}
-
-a.navbar-brand {
-  font-family: 'Nanum Gothic Coding', monospace;
-  font-size: 30px;
-  font-weight: 500;
-}
-
-.navbar {
-  background: linear-gradient(to right, #8333A3, #000000);
-}
-
-.navbar-toggler .fas {
-  color: #ffffff;
-}
-
-.nav-options {
-  color: white;
-  background: transparent;
-  border: none;
-}
-
-.nav-button {
-  background: transparent;
-  border: none;
-  /* margin-top: 14vw;
-  margin-right: 5vh; */
-  /* }
-
-.navbar-nav a {
-  color: #ffffff;
-  margin-right: 14px;
-}
-
-.card {
-  padding: 0;
-  width: 100%;
-  transition: transform 1s;
-  transform-style: preserve-3d;
-}
-
-.back, .btn-flip {
-  display: block;
-  position: absolute;
-}
-
-a {
-  text-decoration-line: none !important;
-}
-
-.text-timeline {
-  font-family: 'Nanum Gothic Coding', monospace;
-  color: white;
-  font-size: 30px;
-}
-
-.nav-timeline {
-  background: linear-gradient(to right, #8333A3, #000000);
-}
-
-.nav-options {
-  color: white;
-  background: transparent;
-  border: none;
-}
-
-.nav-button {
-  background: transparent;
-  border: none;
-  margin-top: 14vw;
-  margin-right: 5vh;
-}
-
-.card {
-  padding: 0;
-  width: 100%;
-  transition: transform 1s;
-  transform-style: preserve-3d;
-}
-
-.back, .btn-flip {
-  display: block;
-  position: absolute;
-}
-
-.card div {
-  display: block;
-  width: auto;
-  top: 0px;
-  position: absolute;
-  backface-visibility: hidden;
-}
-
-.card .back {
-  transform: rotateY( 180deg);
-}
-
-.card.flipped {
-  transform: rotateY( 180deg);
-}
-
-.btn-flip, .btn-flip-one {
-  background: transparent;
-  width: 20vw;
-  height: auto;
-}
-
-
-
-.btn-flip-one {
-  position: absolute;
-  top: 70vw;
-  left: 3vw;
-}
-
-.card div {
-  display: block;
-  width: auto;
-  top: 0;
-  position: relative;
-  backface-visibility: hidden;
-}
-
-.card .back {
-  transform: rotateY( 180deg);
-}
-
-.card.flipped {
-  transform: rotateY( 180deg);
-}
-
-.btn-flip, .btn-flip-one {
-  background: transparent;
-  width: 7vw;
-  height: auto;
-  position: absolute;
-  top: 42vw;
-  left: 2vw;
-}
-
-.btn-flip {
-  bottom: 5vh;
-  left: 3vw;
-}
-
-.map {
-  height: 88vh;
-  position: absolute;
-  margin: 0;
-  padding: 0;
-}
-
-.list-map {
-  height: 88vh;
-  position: relative;
-}
-
-.photo-list {
-  width: auto;
-  height: 150px;
-}
-
-.row {
-  margin-top: 3vw;
-  margin-left: 3vh;
-}
-
-.list-place {
-  color: black;
-} */
+  .photo {
+    height: 35vw;
+  }
+  .wiki {
+    margin: 0 20vw;
+  }
+  .title-wiki {
+    font-size: 1.5rem;
+  }
+  .text {
+    font-size: 1.0rem;
+  }
 }

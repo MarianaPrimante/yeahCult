@@ -1,0 +1,22 @@
+{
+  "name": "yeahcult",
+  "version": "1.0.0",
+  "description": "Descubra o mundo ao seu redor!",
+  "main": "auth.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MarianaPrimante/yeahCult.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MarianaPrimante/yeahCult/issues"
+  },
+  "homepage": "https://github.com/MarianaPrimante/yeahCult#readme",
+  "devDependencies": {
+    "eslint": "^6.0.1"
+  }
+}

@@ -1,6 +1,6 @@
 const photos = {
-  'Parque_Trianon': ['../imgs/parque-trianon.jpg', '../imgs/parque-trianon-2.jpg', '../imgs/parque-trianon-3.jpg'],
-  'Museu_de_Arte_de_Sao_Paulo': ['../imgs/masp.jpg', '../imgs/masp-assis-chateaubriand.jpg', '../imgs/masp-pietro-bardi.jpg', '../imgs/masp-aerea.jpg']
+  "Parque_Trianon": ["../imgs/parque-trianon.jpg", "../imgs/parque-trianon-2.jpg", "../imgs/parque-trianon-3.jpg"],
+  "Museu_de_Arte_de_Sao_Paulo": ["../imgs/masp.jpg", "../imgs/masp-assis-chateaubriand.jpg", "../imgs/masp-pietro-bardi.jpg", "../imgs/masp-aerea.jpg"]
 };
 
 showPhotos = (place) => {
